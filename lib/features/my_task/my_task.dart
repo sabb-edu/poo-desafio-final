@@ -1,11 +1,11 @@
 import 'package:desafio_final/features/home/home.dart';
 import 'package:desafio_final/interfaces/task_interface.dart';
 import 'package:desafio_final/models/meet_model.dart';
-import 'package:desafio_final/models/page_model.dart';
 import 'package:desafio_final/models/sport_task_model.dart';
 import 'package:desafio_final/utils/read.dart';
 import 'package:desafio_final/utils/taks.dart';
 
+import '../../interfaces/page_model.dart';
 import '../../utils/clean.dart';
 
 class MyTask implements Page {
