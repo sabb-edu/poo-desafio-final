@@ -19,7 +19,7 @@ class MyTask implements Page {
 
     for (int i = 0; i < allTasks.length; i++) {
       final task = allTasks[i];
-      _showTitle(task, i);
+      _showTitle(task, i);  
       if (task is MeetTaskModel) {
         _meetInfo(task);
       }

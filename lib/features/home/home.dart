@@ -1,3 +1,4 @@
+import 'package:desafio_final/features/add_task/add_task.dart';
 import 'package:desafio_final/features/my_task/my_task.dart';
 import 'package:desafio_final/utils/clean.dart';
 import 'package:desafio_final/utils/read.dart';
@@ -20,6 +21,7 @@ class Home implements Page {
     if (result == 1) {
       MyTask().init();
     } else if (result == 2) {
+      AddTask().init();
     } else {}
   }
 }
